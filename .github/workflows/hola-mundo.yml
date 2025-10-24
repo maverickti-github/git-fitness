@@ -16,13 +16,13 @@ jobs:
 
     - name: 👋 ¡Hola mundo DevOps!
       run: |
-        echo "¡Hola DevOps con Roxs! 🚀"
+        echo "¡Hola DevOps con Jonh! 🚀"
         date
         uname -a
 
     - name: 🧪 Test Matemático
       run: |
-        if [ $((2+2)) -eq 4 ]; then
+        if [ $((2+4)) -eq 4 ]; then
           echo "✅ Todo OK"
         else
           echo "❌ Algo falló"
